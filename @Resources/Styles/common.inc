@@ -77,3 +77,19 @@ ImageTint=#textSubColor#
 Path="#@#Images"
 Hidden=1
 Group=buttons
+
+[barCommon]
+X=r
+Y=r
+; W should match up with with circular meters
+W=(6*#radius#)
+; H should be equal to the width of the pie line
+; LineLength - LineStart in terms of #radius#
+H=(0.283*#radius#)
+SolidColor=#pieBgColor#
+BarColor=#pieColor#
+BarOrientation=Horizontal
+
+[barTickCommon]
+X=r
+Y=r
