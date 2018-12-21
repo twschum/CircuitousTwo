@@ -19,6 +19,8 @@ HWiNFOSensorId=#sensorIdUtil#
 HWiNFOSensorInstance=#sensorInstanceUtil#
 HWiNFOEntryId=#entryIdUtil#
 HWiNFOType=CurrentValue
+MinValue=0
+MaxValue=100
 
 [mLowestUtil]
 Measure=Plugin
@@ -27,6 +29,8 @@ HWiNFOSensorId=#sensorIdUtil#
 HWiNFOSensorInstance=#sensorInstanceUtil#
 HWiNFOEntryId=#entryIdUtil#
 HWiNFOType=MinimumValue
+MinValue=0
+MaxValue=100
 
 [mHighestUtil]
 Measure=Plugin
@@ -35,6 +39,8 @@ HWiNFOSensorId=#sensorIdUtil#
 HWiNFOSensorInstance=#sensorInstanceUtil#
 HWiNFOEntryId=#entryIdUtil#
 HWiNFOType=MaximumValue
+MinValue=0
+MaxValue=100
 
 [mAverageUtil]
 Measure=Plugin
@@ -43,3 +49,5 @@ HWiNFOSensorId=#sensorIdUtil#
 HWiNFOSensorInstance=#sensorInstanceUtil#
 HWiNFOEntryId=#entryIdUtil#
 HWiNFOType=AverageValue
+MinValue=0
+MaxValue=100
