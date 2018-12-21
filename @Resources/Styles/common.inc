@@ -68,6 +68,16 @@ FontColor=#textSubColor#
 StringStyle=#fontStyle#
 Hidden=#hideSubText#
 
+[innerTextCommon]
+X=(#radius#)r
+Y=(#radius#)r
+AntiAlias=1
+StringAlign=CenterCenter
+FontFace=#subFont#
+FontSize=(#radius#*0.3)
+FontColor=#textSubColor#
+StringStyle=#fontStyle#
+
 [iconCommon]
 AntiAlias=1
 Y=r
@@ -78,22 +88,19 @@ Path="#@#Images"
 Hidden=1
 Group=buttons
 
+[barBoxCommon]
+X=(#edging#+#barXzero#)
+Y=(#radius#+#edging#*0.5)
+AntiAlias=1
+
 [barCommon]
 X=r
 Y=r
-; W should match up with with circular meters
 W=#barW#
-; H should be equal to the width of the pie line
-; LineLength - LineStart in terms of #radius#
 H=#barH#
 SolidColor=#pieBgColor#
 BarColor=#pieColor#
 BarOrientation=Horizontal
-
-[barBoxCommon]
-X=#edging#
-Y=(#radius#+#edging#*0.5)
-AntiAlias=1
 
 [barTickCommon]
 X=r
