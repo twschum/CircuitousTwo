@@ -85,12 +85,18 @@ Y=r
 W=#barW#
 ; H should be equal to the width of the pie line
 ; LineLength - LineStart in terms of #radius#
-H=#barBoxW#
+H=#barH#
 SolidColor=#pieBgColor#
 BarColor=#pieColor#
 BarOrientation=Horizontal
+
+[barBoxCommon]
+X=#edging#
+Y=(#radius#+#edging#*0.5)
+AntiAlias=1
 
 [barTickCommon]
 X=r
 Y=r
 DynamicVariables=1
+UpdateDivider=2
