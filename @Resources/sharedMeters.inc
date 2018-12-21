@@ -4,7 +4,8 @@ X=0
 Y=0
 W=((#radius#*6)+(#edging#*2))
 H=((#radius#*2)+(#edging#*2))
-SolidColor=0,0,0,1
+;SolidColor=0,0,0,1
+SolidColor=20,30,34,255
 
 [innerEdge]
 Meter=ROUNDLINE

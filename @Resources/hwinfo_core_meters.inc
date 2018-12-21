@@ -61,6 +61,6 @@ Text="%1#CRLF#GHz"
 
 ; Temperature meter
 [mainTextValue]
-Text="core 0: %1 "
+Text="core #coreN#: %1 "
 
 @includeTempBar="#@#temperatureBarMeter.inc"
