@@ -17,8 +17,8 @@ dateFormat="%a, %#d %B"
 timeRoundline=1
 
 ; Maximum upload and download speeds in Bytes per second
-uploadMax=393216
-downloadMax=655360
+uploadMax=1310720
+downloadMax=26214400
 
 ;Weather woeid and unit
 woeid=12778594

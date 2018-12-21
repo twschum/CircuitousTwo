@@ -79,8 +79,8 @@ Hidden=1
 Group=buttons
 
 [barCommon]
-X=r
-Y=r
+X=#edging#
+Y=R
 ; W should match up with with circular meters
 W=(6*#radius#)
 ; H should be equal to the width of the pie line
@@ -93,3 +93,4 @@ BarOrientation=Horizontal
 [barTickCommon]
 X=r
 Y=r
+DynamicVariables=1
